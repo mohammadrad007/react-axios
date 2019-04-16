@@ -1,0 +1,36 @@
+.alert{
+    display: inline-block;
+    font-size: 16px;
+    color:rgba(108, 158, 142, 0.849); 
+    font-weight: 500;
+}
+.FullPost{
+    width: 70%;
+    height: 200px;
+    border: 1px solid rgb(189, 192, 196);
+    border-radius: 5px;
+    margin: 15px auto 5px;
+}
+.FullPost h1{
+    text-align: left;
+    margin-left: 15px;
+    text-shadow: 3px 4px 9px #0f111385;
+}
+.Delete{
+    border: none;
+    width: 60px;
+    height: 30px;
+    background: rgb(206, 80, 80);
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: iransans;
+    font-weight:500; 
+    transition: .8s;
+}
+.Delete:hover{
+    border: 1px solid  rgb(206, 80, 80);
+    background: white;
+    color: rgb(206, 80, 80);
+}
